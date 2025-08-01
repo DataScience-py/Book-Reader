@@ -1,3 +1,5 @@
+// Use MSYS2 MinGW64 as the default terminal profile
+
 {
   "cmake.generator": "MinGW Makefiles",
   "cmake.configureSettings": {
