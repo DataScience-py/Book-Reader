@@ -19,7 +19,4 @@
   },
   "terminal.integrated.defaultProfile.windows": "MSYS2 MINGW64",
   "terminal.integrated.cwd": "C:/Project/Book-Reader",
-  "files.associations": {
-    "qwidget": "cpp"
-  },
 }
