@@ -2,12 +2,13 @@
 #include <QWidget>
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-    
-    QWidget winodw;
-    winodw.resize(200, 100);
-    winodw.setWindowTitle("Hello World");
-    winodw.show();
+
+    QApplication app(argc, argv);    
+    QWidget window;
+    window.resize(960, 720);
+    window.setWindowTitle("Windows-Reader");
+    window.show();
     
     return app.exec();
 }
+
