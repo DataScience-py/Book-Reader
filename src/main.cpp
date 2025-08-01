@@ -1,9 +1,13 @@
 #include <QApplication>
-#include <QLabel>
+#include <QWidget>
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-    QLabel label("Привет, Qt!");
-    label.show();
+    
+    QWidget winodw;
+    winodw.resize(200, 100);
+    winodw.setWindowTitle("Hello World");
+    winodw.show();
+    
     return app.exec();
 }
