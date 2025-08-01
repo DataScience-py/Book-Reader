@@ -1,0 +1,15 @@
+{
+  "cmake.generator": "MinGW Makefiles",
+  "cmake.configureSettings": {
+    "CMAKE_PREFIX_PATH": "C:/msys64/mingw64",
+    "CMAKE_C_COMPILER": "C:/msys64/mingw64/bin/gcc.exe",
+    "CMAKE_CXX_COMPILER": "C:/msys64/mingw64/bin/g++.exe"
+  },
+  "terminal.integrated.profiles.windows": {
+    "MSYS2 MinGW64": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["-l", "-c", "cd /c/Project/Book-Reader && exec bash"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "MSYS2 MinGW64"
+}
